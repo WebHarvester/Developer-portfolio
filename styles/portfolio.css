@@ -209,5 +209,30 @@ main section {
 }
 
 
+/* footer section styles */
 
+footer {
+    display: flex;
+    justify-items: center;
+    gap: 100px;
+    padding: 130px 200px;
+    background: #FFF8F3;
+    margin-top: 100px;
+}
 
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"], textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 25px;
+    color:#474747;
+    border: 0;
+    width: 100%;
+}
+
+.footer-section-title {
+    text-align: left;
+}
