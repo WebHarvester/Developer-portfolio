@@ -121,10 +121,9 @@ main section {
 /* About section styles */
 
 .about {
-    padding: 130px;
+    padding: 70px 100px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px;
 }
 
 .about-info-container {
