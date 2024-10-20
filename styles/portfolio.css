@@ -107,6 +107,12 @@ nav a {
 
 /* Main section styles */
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
 
 /* About section styles */
 
@@ -116,3 +122,31 @@ nav a {
     background: #FFF8F3;
     margin: 130px;
 }
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.info-description {
+    margin: 5px;
+}
+
+#whatido-description {
+    padding: 30px 150px;
+
+}
+
+.skill-containers {
+    display: flex;
+}
+
